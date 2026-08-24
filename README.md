@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="assets/header.svg" alt="Anil Sahith Vallepu — Software Engineer: Production AI Systems, Distributed Backends, Low-Latency Inference" width="100%"/>
-</div>
-
 # Hi, I'm Anil Sahith Vallepu! 👋
 
 ### 💡 Software Engineer | Production AI Systems · Distributed Backends · Low-Latency Inference
