@@ -4,7 +4,7 @@
 
 Software Engineer with **2+ years building production-scale AI systems**, distributed backend infrastructure, and low-latency ML inference pipelines. I work across **Python and Rust** on LLM applications, multimodal AI, GPU inference optimization, and cloud-native services — architecting systems that process **millions of requests** across Kubernetes, cloud GPUs, and edge devices.
 
-🎙️ Currently **SDE-2 at [Arrowhead AI](https://arrowhead.team)**, building an AI voice-agent platform end to end — the real-time speech pipeline, a WebAssembly plugin runtime, and in-house STT/TTS/LLM models.
+🎧 Currently **Founding ML Engineer at [Ordo](https://heyordo.com)**, building the agent runtime behind an ear-worn AI interface — the loop that hears what you ask and carries it out on your phone.
 
 🔬 Exploring: **Agentic AI · On-device VLMs · Quantum Computing & Post-Quantum Cryptography**
 
@@ -86,7 +86,15 @@ Software Engineer with **2+ years building production-scale AI systems**, distri
 
 ### 💼 Experience
 
-**SDE-2 · Arrowhead AI** — Bangalore, India · *Mar 2026 – Present*
+**Founding ML Engineer · [Ordo](https://heyordo.com)** — *Sep 2026 – Present*
+> Ordo is an ear-worn AI interface — camera earbuds paired with your phone — that sees, hears, and acts on your behalf through the apps you already use. I own the agent runtime.
+
+* Building the **agentic runtime**: an observe → decide → act → verify loop that takes a spoken goal and completes it on Android through the Accessibility API — running **on the phone**, with the model reached in the cloud — every step recorded, checked against the settled screen, and gated before anything consequential (a payment, a message) goes out.
+* Building the **voice layer** end to end: an acoustic wake word (on-device keyword spotting), one continuous on-device speech session per exchange, the model judging what an utterance meant, and neural TTS — with a **two-way conversation**, so you can redirect, answer, or stop a task while it runs.
+* Designing it **model-, device- and engine-agnostic**: models, devices and execution paths — native intents and accessibility today, hosted tools and vision next — are adapters behind explicit contracts, with a capability layer so the agent asks for *set an alarm*, never for a tap.
+* **Eval-first**: measured on AndroidWorld with every run written to a ledger — success, steps, per-step latency, tokens — so each change to the harness is priced against a number, and a local model earns its place in the loop by measurement, not by default.
+
+**SDE-2 · Arrowhead AI** — Bangalore, India · *Mar 2026 – Sep 2026*
 > Building an AI voice-agent platform end to end: the real-time speech pipeline (STT → LLM → TTS), call orchestration, and a plugin runtime.
 
 * Built and deployed **20+ production client integrations as Rust plugins compiled to WebAssembly (Extism)**, connecting the voice platform to partner CRMs and APIs in real time *during live calls*.
